@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo">
+        <h1 class="todo__title"> Мой список дел</h1>
+        
+        <div class="todo__input">
+            <input type="text" class="todo__input-field" id="taskInput" placeholder="Введите новую задачу...">
+            <button class="todo__button" onclick="addTask()">Добавить</button>
+        </div>
+
+        <div class="todo__list" id="taskList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
